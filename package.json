@@ -1,0 +1,45 @@
+{
+  "name": "money-manger",
+  "version": "1.0.0",
+  "description": "Backend for money manager this app deals with income and expense statements",
+  "main": "app.js",
+  "dependencies": {
+    "bcrypt": "^5.0.1",
+    "buffer-writer": "^2.0.0",
+    "cors": "^2.8.5",
+    "date-and-time": "^0.14.2",
+    "dotenv": "^8.2.0",
+    "inherits": "^2.0.4",
+    "joi": "^17.4.0",
+    "jsonwebtoken": "^8.5.1",
+    "object-assign": "^4.1.1",
+    "packet-reader": "^1.0.0",
+    "pg": "^8.5.1",
+    "pg-connection-string": "^2.4.0",
+    "pg-int8": "^1.0.1",
+    "pg-pool": "^3.2.2",
+    "pg-protocol": "^1.4.0",
+    "pg-types": "^2.2.0",
+    "pgpass": "^1.0.4",
+    "postgres-array": "^2.0.0",
+    "postgres-bytea": "^1.0.0",
+    "postgres-date": "^1.0.7",
+    "postgres-interval": "^1.2.0",
+    "readable-stream": "^3.6.0",
+    "safe-buffer": "^5.2.1",
+    "split2": "^3.2.2",
+    "string_decoder": "^1.3.0",
+    "util-deprecate": "^1.0.2",
+    "uuid": "^8.3.2",
+    "vary": "^1.1.2",
+    "xtend": "^4.0.2"
+  },
+  "scripts": {
+    "start": "nodemon app.js"
+  },
+  "author": "Deepak",
+  "license": "ISC",
+  "devDependencies": {
+    "nodemon": "^2.0.7"
+  }
+}
